@@ -86,7 +86,6 @@ Time spent: **X** hours spent in total
     - Tested in version: 	4.2 (Released on 04/23/2015)
     - Fixed in version:		4.7.3
   - GIF Walkthrough: ![User Enumeration](https://github.com/AAp04/Codepath-Week-7/blob/main/five.gif)
-	- https://i.imgur.com/zaQAuse.gifv
   - [x] Steps to recreate:	
   	- Upload a media file containing exploit in form of Metadata.
 	- If it doesn't contain Metadata already, we can add it in description of the media file on admin console.
