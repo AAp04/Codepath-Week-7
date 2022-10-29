@@ -56,8 +56,7 @@ Time spent: **X** hours spent in total
     - Enter a known username such as admin or moderator in my case followed by an invalid password for that account.
     - A detailed error message appears letting a user or attacker know that there is infact an account named admin, moderator, etc.
     - Theoretically, all they would have to do is use the nifty built-in password cracker/brute-forcer via the wpscan tool in Kali by using the --wordlist option and feeding it a dictionary text or list file and one of the now known usernames (--username option).
-  - Affected source code:
-    - [WordPress Github](https://github.com/WordPress/WordPress/commit/daf358983cc1ce0c77bf6d2de2ebbb43df2add60)
+
 ### 4. (Required) Vulnerability Name or ID
   - [x] Summary:
     - Vulnerability types: XSS (CVE-2015-5714)
