@@ -45,25 +45,27 @@ Time spent: **X** hours spent in total
     - [Klikki's exploit code](https://klikki.fi/adv/wordpress2.html)
       - [Exploit-db 36844](https://www.exploit-db.com/exploits/36844/)
 
-### 3. (Required) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
+### 3. User Enumeration <= 4.7.1 (CVE-2017-5487)
+ - Summary: 
+    - Vulnerability types: User Enumeration
+    - Tested in version: 4.2
+    - Fixed in version: 4.7.2
+  - GIF Walkthrough: ![User Enumeration](https://github.com/AAp04/Codepath-Week-7/blob/main/three.gif)
+  - Steps to recreate: 
+    - Create new user(s).
+    - Enter a known username such as admin or moderator in my case followed by an invalid password for that account.
+    - A detailed error message appears letting a user or attacker know that there is infact an account named admin, moderator, etc.
+    - Theoretically, all they would have to do is use the nifty built-in password cracker/brute-forcer via the wpscan tool in Kali by using the --wordlist option and feeding it a dictionary text or list file and one of the now known usernames (--username option).
+  - Affected source code:
+    - [WordPress Github](https://github.com/WordPress/WordPress/commit/daf358983cc1ce0c77bf6d2de2ebbb43df2add60)
 ### 4. (Required) Vulnerability Name or ID
   - [x] Summary:
     - Vulnerability types: XSS (CVE-2015-5714)
     - Tested in version: 4.2 (affects versions 4.0 - 4.3
     - Fixed in version: 4.2.5
-  - [x] GIF Walkthrough:
+  - [x] GIF Walkthrough:(https://github.com/AAp04/Codepath-Week-7/blob/main/four.gif)
 
-    ![Walkthrough exploit 3](https://i.imgur.com/f9XWOUo.gif)
+    ![Walkthrough exploit 3]
   - [x] Steps to recreate:
       - Sign in as an administrator
       - Create a new Post
