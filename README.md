@@ -56,17 +56,28 @@ Time spent: **X** hours spent in total
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
-### 4. Cross-Site Scripting (XSS)
-  - Summary: 
-    - Vulnerability types: Cross-Site Scripting (XSS)
-    - Tested in version: 4.0
-    - Fixed in version: 4.6
-  - GIF Walkthrough: ![Cross-Site Scripting](https://github.com/AAp04/Codepath-Week-7/blob/main/four.gif)
-  - Steps to recreate:
-    - Comment on a post (authenticated or unauthenticated).
-    - Enter the following JS code: `<script>alert(document.cookie)</script>`
-  - Affected source code:
-    - [WordPress GitHub](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
+### 4. (Required) Vulnerability Name or ID
+  - [x] Summary:
+    - Vulnerability types: XSS (CVE-2015-5714)
+    - Tested in version: 4.2 (affects versions 4.0 - 4.3
+    - Fixed in version: 4.2.5
+  - [x] GIF Walkthrough:
+
+    ![Walkthrough exploit 3](https://i.imgur.com/f9XWOUo.gif)
+  - [x] Steps to recreate:
+      - Sign in as an administrator
+      - Create a new Post
+      - Switch from Visual editing mode to Text (HTML) editing mode
+      - Insert the malicious caption code
+
+        `[caption width="1" caption='<a href="' ">]</a><a href=" onmouseover='alert("exploit!")' ">Click!</a>`
+  - [x] References:
+      - https://wpvulndb.com/vulnerabilities/8186
+      - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5714
+      - https://wordpress.org/news/2015/09/wordpress-4-3-1/
+      - http://blog.checkpoint.com/2015/09/15/finding-vulnerabilities-in-core-wordpress-a-bug-hunters-trilogy-part-iii-ultimatum/
+      - http://blog.knownsec.com/2015/09/wordpress-vulnerability-analysis-cve-2015-5714-cve-2015-5715/
+
 
 ### 5. (Optional) Vulnerability Name or ID
 
