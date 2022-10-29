@@ -11,7 +11,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS (CVE-2015-5714)
     - Tested in version: 4.2 (affects versions 4.0 - 4.3
     - Fixed in version: 4.2.5
-  - GIF Walkthrough: ![Authenticated Persistent XSS](https://github.com/0v3rride/Codepath-Week-7/blob/master/one.gif)
+  - GIF Walkthrough: ![Authenticated Persistent XSS](https://github.com/0v3rride/Codepath-Week-7/blob/master/One.gif)
 
   
   - [x] Steps to recreate:
