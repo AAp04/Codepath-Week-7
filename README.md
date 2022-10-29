@@ -80,16 +80,19 @@ Time spent: **X** hours spent in total
       - http://blog.knownsec.com/2015/09/wordpress-vulnerability-analysis-cve-2015-5714-cve-2015-5715/
 
 
-### 5. (Optional) Vulnerability Name or ID
+### 5. (Required) WordPress 3.6.0-4.7.2 - Authenticated Cross-Site Scripting via Media File Metadata
+  - [x] Summary:
+    - Vulnerability types:	XSS
+    - Tested in version: 	4.2 (Released on 04/23/2015)
+    - Fixed in version:		4.7.3
+  - GIF Walkthrough: ![User Enumeration](https://github.com/AAp04/Codepath-Week-7/blob/main/five.gif)
+	- https://i.imgur.com/zaQAuse.gifv
+  - [x] Steps to recreate:	
+  	- Upload a media file containing exploit in form of Metadata.
+	- If it doesn't contain Metadata already, we can add it in description of the media file on admin console.
+	- Add "filename </noscript><script>alert("Exploit 3 Successful");</script>" in the description including quotes.
+	- View attachment page and our alert box will pop up.
 
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
