@@ -63,8 +63,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS (CVE-2015-5714)
     - Tested in version: 4.2 (affects versions 4.0 - 4.3
     - Fixed in version: 4.2.5
-  - [x] GIF Walkthrough:(https://github.com/AAp04/Codepath-Week-7/blob/main/four.gif)
-
+  - GIF Walkthrough: ![User Enumeration](https://github.com/AAp04/Codepath-Week-7/blob/main/four.gif)
     ![Walkthrough exploit 3]
   - [x] Steps to recreate:
       - Sign in as an administrator
