@@ -11,9 +11,9 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS (CVE-2015-5714)
     - Tested in version: 4.2 (affects versions 4.0 - 4.3
     - Fixed in version: 4.2.5
-  - GIF Walkthrough: ![Authenticated Persistent XSS](https://github.com/0v3rride/Codepath-Week-7/blob/master/One.gif)
+  - GIF Walkthrough: ![Authenticated Persistent XSS](https://github.com/AAp04/Codepath-Week-7/blob/main/One.gif)
 
-  
+
   - [x] Steps to recreate:
       - Sign in as an administrator
       - Create a new Post
@@ -34,7 +34,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: Persistent XSS
     - Tested in version: 4.2
     - Fixed in version: Unknown
-  - GIF Walkthrough: ![Authenticated Persistent XSS](https://github.com/0v3rride/Codepath-Week-7/blob/master/two.gif)
+  - GIF Walkthrough: ![Authenticated Persistent XSS](https://github.com/AAp04/Codepath-Week-7/blob/main/two.gif)
   - Steps to recreate: 
     - Created a new account with editor privileges named moderator which was used for the user enumeration walkthrough.
     - Logged into moderator and navigated to the "Example front page" post.
@@ -61,7 +61,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: Cross-Site Scripting (XSS)
     - Tested in version: 4.0
     - Fixed in version: 4.6
-  - GIF Walkthrough: ![Cross-Site Scripting](https://github.com/0v3rride/Codepath-Week-7/blob/master/four.gif)
+  - GIF Walkthrough: ![Cross-Site Scripting](https://github.com/AAp04/Codepath-Week-7/blob/main/four.gif)
   - Steps to recreate:
     - Comment on a post (authenticated or unauthenticated).
     - Enter the following JS code: `<script>alert(document.cookie)</script>`
